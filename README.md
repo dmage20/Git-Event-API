@@ -35,7 +35,7 @@ for example http://localhost:3000/v1/issues
     "updated_at": "2019-02-19T03:38:37.266Z"
   }]
   
-7. To list the issues of a particular repository 
+7. To list the issues of a particular repository using repository_id
 go to http://localhost:3000/v1/repositories/171237359/issues
   
   [
