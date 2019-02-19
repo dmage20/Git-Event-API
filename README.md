@@ -1,7 +1,8 @@
 ```
 1. Startup ngrok by typing ./ngrok the_port_number  in your terminal and leave it running
 2. Copy this part of the part of the forwarding address that looks similar to http://e06b612d.ngrok.io
-3. Setup the webhook Payload URL in GitHub with using the part of the ngrok address. For example http://e06b612d.ngrok.io/v1/issues , this is the endpoint to receive events in your app 
+3. Setup the webhook Payload URL in GitHub with using the part of the ngrok address. 
+For example http://e06b612d.ngrok.io/v1/issues , this is the endpoint to receive events in your app 
 
 references:
 https://developer.github.com/webhooks/configuring/
@@ -34,7 +35,8 @@ for example http://localhost:3000/v1/issues
     "updated_at": "2019-02-19T03:38:37.266Z"
   }]
   
-7. To list the issues of a particular repository go to http://localhost:3000/v1/repositories/171237359/issues
+7. To list the issues of a particular repository 
+go to http://localhost:3000/v1/repositories/171237359/issues
   
   [
   {
@@ -59,7 +61,8 @@ for example http://localhost:3000/v1/issues
   }
 ]
 
-8. To display the information of an issue through the id of the issue go to http://localhost:3000/v1/issues/411730401
+8. To display the information of an issue through the id of the issue 
+go to http://localhost:3000/v1/issues/411730401
   [
   {
     "id": 10,
